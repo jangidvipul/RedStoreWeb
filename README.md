@@ -1,7 +1,7 @@
 
 # 🛍️ RedStoreWeb
 
-RedStoreWeb is a front-end web project that simulates an eCommerce clothing store. It is built using **HTML**, **CSS**, and **JavaScript**, and styled with responsive design principles to offer a clean and attractive user interface.
+RedStoreWeb is a front-end web project that simulates an E-Commerce clothing store. It is built using **HTML**, **CSS**, and **JavaScript**, and styled with responsive design principles to offer a clean and attractive user interface.
 
 ## 🚀 Features
 

@@ -22,7 +22,7 @@
           <div class="logo">
             <img src="images/logo.png" width="125px" />
           </div>
-          <nav>
+          <nav class="menu-items">
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">Products</a></li>
@@ -31,13 +31,15 @@
               <li><a href="#">Account</a></li>
             </ul>
           </nav>
+          <img class="cart-icon" src="images/cart.png" />
+          <img class="menu-icon" src="images/menu.png" />
         </div>
-        <img class="cart" src="images/cart.png" />
         <div class="row">
           <div class="col-2">
             <h1>Give Your Workout<br />New Style!</h1>
             <p>
-              Success isn't always about greatness. It's about consistency🎯. <br/>
+              Success isn't always about greatness. It's about consistency🎯.
+              <br />
               Consistent Hard Work gains📈 Success.
             </p>
             <a href="" class="btn">Explore Now &#8594;</a>
@@ -244,7 +246,7 @@
             <small
               >The Mi smart band 4 features a 39.9% larger (than Mi Band 3)
               AMOLED color full-touch display with adjustable brightness, so
-              everything is clear as can be. <br>
+              everything is clear as can be. <br />
             </small>
             <a href="#" class="btn">Buy Now &#8594;</a>
           </div>
@@ -310,5 +312,75 @@
         </div>
       </div>
     </div>
+
+    <! ---- brands section ---- >
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5"><img src="images/logo-godrej.png" /></div>
+          <div class="col-5"><img src="images/logo-oppo.png" /></div>
+          <div class="col-5"><img src="images/logo-coca-cola.png" /></div>
+          <div class="col-5"><img src="images/logo-paypal.png" /></div>
+          <div class="col-5"><img src="images/logo-philips.png" /></div>
+        </div>
+      </div>
+    </div>
+
+    <! ---- Footer ---- >
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android & IOS mobile phone.</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" />
+              <img src="images/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo-white.png" />
+            <p>
+              Our Purpose is to Sustainably Make the Pleasure and Benefits of
+              Sports Accessible to the Many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Copyright @2025</p>
+    </div>
+
+    <!-- Toggle Menu Script -->
+    <script>
+      const menuIcon = document.querySelector(".menu-icon");
+      const menuItems = document.querySelector(".menu-items");
+
+      menuIcon.addEventListener("click", () => {
+        if (menuItems.style.display === "flex") {
+          menuItems.style.display = "none";
+        } else {
+          menuItems.style.display = "flex";
+        }
+      });
+    </script>
   </body>
 </html>
